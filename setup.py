@@ -7,6 +7,6 @@ setup(name='consul-cleanup',
       author='jojo921',
       author_email='935163873@qq.com',
       scripts=['consul-cleanup'],
-      url='https://www.python.org/sigs/distutils-sig/',
+      url='https://github.com/jojo921/consul-cleanup.git',
       packages=['python-consul==0.7.2', 'requests==2.18.4'],
      )
