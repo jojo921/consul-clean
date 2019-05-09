@@ -9,4 +9,5 @@ setup(name='consul-clear',
       scripts=['consul-clear.py'],
       url='https://github.com/jojo921/consul-clear.git',
       install_requires=['python-consul==0.7.2', 'requests==2.20.0'],
+      download_url=''
      )
