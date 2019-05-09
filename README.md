@@ -4,10 +4,9 @@ A simple consul tools which will clean up services with critical status
 
 ## install
 ```
-curl https://github.com/jojo921/consul-clear/blob/master/setup.py
-sudo python setup.py install
+curl https://raw.githubusercontent.com/jojo921/consul-clean/master/consul-clean.py -o consul-clean
 ```
 ## Usage
 ```
-python consul-clear.py -h
+consul-clean -h
 ```
