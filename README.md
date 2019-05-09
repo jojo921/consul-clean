@@ -1,6 +1,7 @@
 # introduction
 
-A simple consul tools which will clean up services with critical status
+A simple consul tools which will clean up all services with critical status
+in the DC where the consul agent listening on the address pointed by ```the host param and port param``` lies in
 
 ## install
 ```
