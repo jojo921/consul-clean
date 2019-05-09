@@ -35,3 +35,4 @@ if __name__ == '__main__':
     c = consul.Consul(host=args.host, port=args.port)
     cc = ConsulCleanUp(c)
     cc.deregister(cc.get_critical_service(tag=args.tag))
+    print "deregister successfully"
