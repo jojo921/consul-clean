@@ -1,9 +1,9 @@
-# introduction
+# Introduction
 
 A simple consul tools which will clean up all services with critical status
 in the DC where the consul agent listening on the address pointed by ```the host param and port param``` lies in
 
-## install
+## Install
 ```
 curl https://raw.githubusercontent.com/jojo921/consul-clean/master/requirements.txt \
     -o requirements.txt &&\
