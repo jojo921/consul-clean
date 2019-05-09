@@ -13,5 +13,5 @@ curl https://raw.githubusercontent.com/jojo921/consul-clean/master/requirements.
 ```
 ## Usage
 ```
-consul-clean -h
+python consul-clean -h
 ```
