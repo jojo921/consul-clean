@@ -5,14 +5,14 @@ in the DC where the consul agent listening on the address pointed by ```the host
 
 ## Install
 ```
-curl https://raw.githubusercontent.com/jojo921/consul-clean/master/requirements.txt \
+curl https://raw.githubusercontent.com/jojo921/consul-cleanup/master/requirements.txt \
     -o requirements.txt &&\
     pip install -r requirements.txt &&\
     rm requirements.txt &&\
-    curl https://raw.githubusercontent.com/jojo921/consul-clean/master/consul-clean.py -o consul-clean
+    curl https://raw.githubusercontent.com/jojo921/consul-cleanup/master/consul-cleanup.py -o consul-cleanup
 
 ```
 ## Usage
 ```
-python consul-clean -h
+python consul-cleanup -h
 ```
